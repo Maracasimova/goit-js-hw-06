@@ -15,7 +15,3 @@ function getRandomHexColor() {
 }
 
 button.addEventListener("click", changeColor);
-
-// Этот скрипт добавляет слушатель событий на кнопку, который вызывает функцию changeColor при клике.
-// Функция changeColor генерирует случайный цвет и устанавливает его как цвет фона body, а также выводит его значение в span.
-// Функция getRandomHexColor генерирует случайный шестнадцатеричный цвет в формате #RRGGBB.
